@@ -7,16 +7,15 @@ library_path = os.path.abspath(f'{os.getcwd()}/library')
 sys.path.insert(0, library_path) 
 
 # Secondary Dependencies
-import textwrap
-import lib_loader
+import lib_loader # pyright: ignore[reportMissingImports]
 
 # Load the libraries
 lib_loader.libraryhandler()
-from lib_loader import *
+from lib_loader import * # pyright: ignore[reportMissingImports]
 
 # shortcuts
-util = util_class
-table = table_class
+util = util_class # pyright: ignore[reportUndefinedVariable]
+table = table_class # pyright: ignore[reportUndefinedVariable]
 
 # Main Code
 
