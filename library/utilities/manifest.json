@@ -1,0 +1,17 @@
+{
+  "Name": "Name goes here",
+  "Description": "Description goes here",
+  "Version": "Version",
+  "uuid": "192e15ff-b127-47f7-80fd-866ee75ec471",
+  "Index": {
+    "config": "config.ini",
+    "index": "index.py"
+  },
+  "Dependencies": {
+    "0": {
+      "Type": "local",
+      "Name": "example",
+      "UUID": "00000000-0000-0000-0000-000000000000"
+    }
+  }
+}

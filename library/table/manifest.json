@@ -1,0 +1,17 @@
+{
+  "Name": "Table",
+  "Description": "Library for handling the generation and management of tables based on external input",
+  "Version": "0.0.0",
+  "uuid": "7258d98d-7f9e-4e61-96c3-6653b84c69c2",
+  "Index": {
+    "config": "config.ini",
+    "index": "index.py"
+  },
+  "Dependencies": {
+    "0": {
+      "Type": "local",
+      "Name": "example",
+      "UUID": "00000000-0000-0000-0000-000000000000"
+    }
+  }
+}
