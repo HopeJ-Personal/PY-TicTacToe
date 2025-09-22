@@ -24,3 +24,4 @@ table = table_class
 
 print("Welcome to tictactoe")
 table.test("abc")
+table.generate_table(3, 3)
