@@ -5,7 +5,7 @@ print("index for tables")
 
 import sys
 import os
-
+import textwrap
 class table_class:
     #def test():
     #def test(self, param):
@@ -13,10 +13,17 @@ class table_class:
         print(f"test subcommand ran with {param}")
         print("this is a test message inside of the index.py of the 'Table library")
 
-    def generate_table(horizontal, vertical, cell_width, input_width, padding, string):
+    def generate(horizontal, vertical, cell_width, input_width, padding, string):
+        # Step 1: Prepare the string and chunks
         # Split string into pieces (chunks), that each are up to {input_width} characters long
+        chunks = textwrap.wrap(string, width=input_width) # type: ignore
+        while len(chunks) < (horizontal * vertical):
+            chunks.append(" " * input_width)
         
-        chunks = textwrap.wrap(string, width=input_width)
+        # Debugging Print: Print the chunks after initial wrapping
+        print(f"Chunks after initial wrapping:\n{chunks}\n")
+        
+        # Step 2: Padding empty cells
 
 
 

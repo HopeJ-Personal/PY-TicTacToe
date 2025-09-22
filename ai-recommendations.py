@@ -35,3 +35,6 @@ def generate_table(horizontal, vertical):
     for row in table:
         print(" | ".join(row))
     return table
+
+while len(chunks) % (horizontal * vertical) != 0:
+    chunks.append("") # type: ignore
