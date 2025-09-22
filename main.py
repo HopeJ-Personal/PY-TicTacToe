@@ -55,3 +55,13 @@ ico_x = "x"
 ico_o = "o"
 table.generate(3, 3, 1, 1, 1, f"{ico_x}{ico_o}{ico_x}{ico_x}{ico_o}{ico_o}{ico_o}{ico_o}{ico_o}")
 table.generate(3, 3, 1, 1, 1, f"{ico_x}{ico_x}{ico_x}{ico_x}{ico_x}{ico_x}{ico_x}{ico_x}{ico_x}")
+
+# ico_x = "\\   /  x  /   \\"
+# \   /
+#   x  
+# /   \
+
+# ico_o = "╔═══╗║   ║╚═══╝"
+# ╔═══╗
+# ║   ║
+# ╚═══╝
