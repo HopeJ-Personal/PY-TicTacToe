@@ -1,3 +1,5 @@
+# Just here to see how gitignores work incase i wanna make one later, this is set by default for gitbook because idk what gitbook is so it wont/shouldnt effect my project by having it here for refrence
+
 # Node rules:
 ## Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
 .grunt
