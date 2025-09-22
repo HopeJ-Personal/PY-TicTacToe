@@ -16,3 +16,7 @@ _book
 *.epub
 *.mobi
 *.pdf
+
+# pycache
+__pycache__/
+*.pyc
