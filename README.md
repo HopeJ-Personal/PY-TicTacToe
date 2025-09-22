@@ -3,7 +3,7 @@ This repository contains code imported from my CodeHS IDE, which I use in sandbo
 
 | Task           | Current Status | ✓ | 
 |----------------|----------------|-----------|
-| Dyanmic Table Generation | Completed | <ul><li>- [x] item1</li></ul>
-| Temp   | in progress | <ul><li>- [ ] 1.0.0</li></ul>
+| Dyanmic Table Generation | Completed | <ul><li>- [x] 1.0.0</li></ul>
+| Temp   | in progress | <ul><li>- [ ] 0.0.0</li></ul>
 | Temp   | in progress | <ul><li>- [ ] 0.0.0</li></ul>
 | Temp   | in progress | <ul><li>- [ ] 0.0.0</li><li>- [ ] 0.0.0</li></ul>
