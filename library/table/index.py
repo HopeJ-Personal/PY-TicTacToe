@@ -13,18 +13,13 @@ class table_class:
         print(f"test subcommand ran with {param}")
         print("this is a test message inside of the index.py of the 'Table library")
 
-    #def generate_table(rows, cols):
-        #table = []
-        #for r in range(rows):
-        #    row = []
-        #    for c in range(cols):
-        #        row.append("-")
-        #    table.append(row)
-        #for row in table:
-        #    print(" | ".join(row))
-        #return table
-    
-    #def generate_table(variables...):
+    def generate_table(horizontal, vertical, cell_width, input_width, padding, string):
+        # Split string into pieces (chunks), that each are up to {input_width} characters long
+        
+        chunks = textwrap.wrap(string, width=input_width)
+
+
+
     # Utilities: Timer
     #def timer_start():
     #def timer_end()
